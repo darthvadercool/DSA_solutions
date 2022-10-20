@@ -6,12 +6,7 @@ import random
 import re
 import sys
 
-#
-# Complete the 'quickSort' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
+# function written starts
 
 def quickSort(arr):
     pivot = arr[0]
@@ -23,6 +18,9 @@ def quickSort(arr):
         else:
             right.append(element)
     return left+right
+    
+    
+# fucntion ends    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

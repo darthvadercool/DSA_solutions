@@ -36,24 +36,10 @@ def print_singly_linked_list(node, sep, fptr):
         if node:
             fptr.write(sep)
 
-#
-# Complete the 'insertNodeAtPosition' function below.
-#
-# The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
-# The function accepts following parameters:
-#  1. INTEGER_SINGLY_LINKED_LIST llist
-#  2. INTEGER data
-#  3. INTEGER position
-#
 
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
-#
+# fucntion written starts 
+
+
 
 def insertNodeAtPosition(llist, data, position):
     count = 0
@@ -73,6 +59,9 @@ def insertNodeAtPosition(llist, data, position):
     
 
     return llist;
+
+
+# function ends
 
     
     

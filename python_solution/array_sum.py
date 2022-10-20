@@ -6,12 +6,9 @@ import random
 import re
 import sys
 
-#
-# Complete the 'simpleArraySum' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY ar as parameter.
-#
+
+
+# function written starts
 
 def simpleArraySum(ar):
     sum= 0 
@@ -19,6 +16,8 @@ def simpleArraySum(ar):
     for i in range(arr_length):
         sum += ar[i]
     return sum
+    
+# function ends    
 
     
 if __name__ == '__main__':

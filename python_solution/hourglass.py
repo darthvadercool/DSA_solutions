@@ -6,12 +6,8 @@ import random
 import re
 import sys
 
-#
-# Complete the 'hourglassSum' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY arr as parameter.
-#
+
+# function written starts
 
 def hourglassSum(arr):
     result = -math.inf
@@ -23,6 +19,9 @@ def hourglassSum(arr):
             arr[row+1][col-1] + arr[row+1][col] + arr[row+1][col+1]
             result = max((result, hour_glass_sum))
     return (result)
+    
+    
+# function ends    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

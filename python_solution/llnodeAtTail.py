@@ -24,17 +24,10 @@ def print_singly_linked_list(node, sep, fptr):
         if node:
             fptr.write(sep)
 
-# Complete the insertNodeAtTail function below.
 
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
-#
-def insertNodeAtTail(head, data):
+# function written starts
+
+ def insertNodeAtTail(head, data):
     current = head 
     if head == None:
         return SinglyLinkedListNode(data)
@@ -43,6 +36,9 @@ def insertNodeAtTail(head, data):
         
     current.next = SinglyLinkedListNode(data)
     return head     
+
+# function ends
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

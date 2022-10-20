@@ -23,12 +23,7 @@ function readLine(): string {
     return inputLines[currentLine++];
 }
 
-/*
- * Complete the 'simpleArraySum' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts INTEGER_ARRAY ar as parameter.
- */
+/* funtion written starts */
 
 function simpleArraySum(ar: number[]): number {
     var sum: number = 0;
@@ -38,6 +33,7 @@ function simpleArraySum(ar: number[]): number {
     return sum;
 }
 
+/* funtion ends*/
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);
 

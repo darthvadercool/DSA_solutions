@@ -67,25 +67,9 @@ function printSinglyLinkedList(node: SinglyLinkedListNode | null, sep: string, w
     }
 }
 
-/*
- * Complete the 'insertNodeAtPosition' function below.
- *
- * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
- * The function accepts following parameters:
- *  1. INTEGER_SINGLY_LINKED_LIST llist
- *  2. INTEGER data
- *  3. INTEGER position
- */
 
-/*
- * For your reference:
- *
- * SinglyLinkedListNode {
- *     number data;
- *     SinglyLinkedListNode next;
- * }
- *
- */
+
+/* funtion written starts */
 
 function insertNodeAtPosition(llist: SinglyLinkedListNode, data: number, position: number): SinglyLinkedListNode {
     let count:number = 0;
@@ -107,6 +91,9 @@ function insertNodeAtPosition(llist: SinglyLinkedListNode, data: number, positio
   return llist;
 
 }
+
+
+/* funtion ends*/
 
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);

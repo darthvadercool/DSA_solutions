@@ -65,6 +65,10 @@ function printSinglyLinkedList(node: SinglyLinkedListNode | null, sep: string): 
     }
 }
 
+
+
+/* funtion written starts */
+
 function CompareLists(llist1:SinglyLinkedListNode, llist2:SinglyLinkedListNode):number {
     if (llist1===null && llist2 === null){
         return 1;
@@ -85,6 +89,8 @@ function CompareLists(llist1:SinglyLinkedListNode, llist2:SinglyLinkedListNode):
         return 0;
     }   
 }
+
+/* funtion ends*/
 
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);

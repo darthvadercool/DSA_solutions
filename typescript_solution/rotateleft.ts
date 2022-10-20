@@ -23,14 +23,8 @@ function readLine(): string {
     return inputLines[currentLine++];
 }
 
-/*
- * Complete the 'rotateLeft' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts following parameters:
- *  1. INTEGER d
- *  2. INTEGER_ARRAY arr
- */
+
+/* funtion written starts */
 
 function rotateLeft(d: number, arr: number[]): number[] {
     for( let i:number = 0 ; i < d ; i++ ) {
@@ -39,6 +33,8 @@ function rotateLeft(d: number, arr: number[]): number[] {
     }
     return arr;
 }
+
+/* funtion ends*/
 
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);

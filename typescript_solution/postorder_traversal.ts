@@ -45,6 +45,10 @@ export class BinarySearchTree {
     }
   }
 
+
+
+/* funtion written starts */
+
 var arr :String = '';
 
 function postOrder(node:TreeNode):void {
@@ -56,6 +60,7 @@ function postOrder(node:TreeNode):void {
     }
 }  
 
+/* funtion ends*/
 
 
 function main() {

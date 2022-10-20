@@ -66,21 +66,8 @@ function printSinglyLinkedList(node: SinglyLinkedListNode | null, sep: string): 
     }
 }
 
-/*
- * Complete the 'reversePrint' function below.
- *
- * The function accepts INTEGER_SINGLY_LINKED_LIST llist as parameter.
- */
 
-/*
- * For your reference:
- *
- * SinglyLinkedListNode {
- *     number data;
- *     SinglyLinkedListNode next;
- * }
- *
- */
+/* funtion written starts */
 
 function reversePrint(llist: SinglyLinkedListNode): void {
     var prev: SinglyLinkedListNode = null;
@@ -98,6 +85,8 @@ function reversePrint(llist: SinglyLinkedListNode): void {
 
         
     }
+    
+/* funtion ends*/    
 
 
 function main() {

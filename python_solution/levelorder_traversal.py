@@ -34,12 +34,9 @@ class BinarySearchTree:
                 else:
                     break
 
-"""
-Node is defined as
-self.left (the left child of the node)
-self.right (the right child of the node)
-self.info (the value of the node)
-"""
+
+# function written starts
+
 def levelOrder(root):
     if root is None:
         return
@@ -57,7 +54,7 @@ def levelOrder(root):
         if node.right is not None:
             queue.append(node.right)    
         
-
+# function edns
 
 tree = BinarySearchTree()
 t = int(input())

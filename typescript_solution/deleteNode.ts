@@ -67,24 +67,8 @@ function printSinglyLinkedList(node: SinglyLinkedListNode | null, sep: string, w
     }
 }
 
-/*
- * Complete the 'deleteNode' function below.
- *
- * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
- * The function accepts following parameters:
- *  1. INTEGER_SINGLY_LINKED_LIST llist
- *  2. INTEGER position
- */
 
-/*
- * For your reference:
- *
- * SinglyLinkedListNode {
- *     number data;
- *     SinglyLinkedListNode next;
- * }
- *
- */
+/* funtion written starts */
 
 function deleteNode(llist: SinglyLinkedListNode, position: number): SinglyLinkedListNode {
     if (position ===0){
@@ -104,6 +88,8 @@ function deleteNode(llist: SinglyLinkedListNode, position: number): SinglyLinked
     return llist ;
 
 }
+
+/* funtion ends*/
 
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);

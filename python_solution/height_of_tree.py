@@ -34,29 +34,22 @@ class BinarySearchTree:
                 else:
                     break
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-'''
-class Node:
-      def __init__(self,info): 
-          self.info = info  
-          self.left = None  
-          self.right = None 
-           
+#  function written starts
 
-       // this is a node of the tree , which contains info as data, left , right
-'''
+
+
 def height(root):
     if root is None:
         return 0
     else:
  
-        # Compute the depth of each subtree
+        
         lDepth = height(root.left)
     
         rDepth = height(root.right)
         
  
-        # Use the larger one
+     
         if (lDepth > rDepth):
             print(lDepth+1)
             return lDepth+1
@@ -64,6 +57,8 @@ def height(root):
             print(rDepth+1)
             return rDepth+1
 
+
+# function ends
 
 
 tree = BinarySearchTree()

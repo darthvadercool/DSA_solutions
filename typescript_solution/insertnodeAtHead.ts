@@ -53,6 +53,9 @@ class SinglyLinkedList {
     }
 };
 
+
+/* funtion written starts */
+
 function printLinkedList(node:SinglyLinkedListNode):void {
     let currentNode:SinglyLinkedListNode = node;
     while (currentNode != null) {
@@ -62,6 +65,8 @@ function printLinkedList(node:SinglyLinkedListNode):void {
     
     
 }
+
+/* funtion ends*/
 
 function main() {
     const llistCount:number = parseInt(readLine(), 10);

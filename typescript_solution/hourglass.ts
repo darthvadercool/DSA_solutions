@@ -23,12 +23,8 @@ function readLine(): string {
     return inputLines[currentLine++];
 }
 
-/*
- * Complete the 'hourglassSum' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts 2D_INTEGER_ARRAY arr as parameter.
- */
+
+/* funtion written starts */
 
 function hourglassSum(arr: number[][]): number {
     let max:number  = -500
@@ -41,6 +37,8 @@ function hourglassSum(arr: number[][]): number {
     }
     return max
 }
+
+/* funtion ends*/
     
 
 

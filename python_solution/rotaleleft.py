@@ -6,17 +6,13 @@ import random
 import re
 import sys
 
-#
-# Complete the 'rotateLeft' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts following parameters:
-#  1. INTEGER d
-#  2. INTEGER_ARRAY arr
-#
+
+# function written starts
 
 def rotateLeft(d, arr):
     return arr[d:] +arr[:d]
+
+# function ends
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

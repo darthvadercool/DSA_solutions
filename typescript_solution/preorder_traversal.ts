@@ -46,6 +46,11 @@ export class BinarySearchTree {
   
  }
 }
+
+
+
+/* funtion written starts */
+
  var arr:String = '';
 
 function preOrder(node: TreeNode):void {
@@ -57,6 +62,8 @@ function preOrder(node: TreeNode):void {
     }
 }
 
+
+/* funtion ends*/
 
 
 

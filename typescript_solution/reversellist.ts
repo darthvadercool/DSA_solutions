@@ -67,22 +67,7 @@ function printSinglyLinkedList(node: SinglyLinkedListNode | null, sep: string, w
     }
 }
 
-/*
- * Complete the 'reverse' function below.
- *
- * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
- * The function accepts INTEGER_SINGLY_LINKED_LIST llist as parameter.
- */
-
-/*
- * For your reference:
- *
- * SinglyLinkedListNode {
- *     number data;
- *     SinglyLinkedListNode next;
- * }
- *
- */
+/* funtion written starts*/
 
 function reverse(llist: SinglyLinkedListNode): SinglyLinkedListNode {
  var prev: SinglyLinkedListNode = null;
@@ -99,6 +84,8 @@ function reverse(llist: SinglyLinkedListNode): SinglyLinkedListNode {
 
         
     }
+    
+/* funtion ends*/    
 
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);

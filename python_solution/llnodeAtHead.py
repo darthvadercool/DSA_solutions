@@ -25,16 +25,9 @@ def print_singly_linked_list(node, sep, fptr):
         if node:
             fptr.write(sep)
 
-# Complete the insertNodeAtHead function below.
+# function written starts
 
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
-#
+
 def insertNodeAtHead(llist, data):
     node = SinglyLinkedListNode(data)
     if llist:
@@ -42,6 +35,8 @@ def insertNodeAtHead(llist, data):
     return node    
     
     return llist
+    
+# function ends    
     
 
 if __name__ == '__main__':

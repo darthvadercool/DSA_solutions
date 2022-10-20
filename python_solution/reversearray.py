@@ -6,12 +6,8 @@ import random
 import re
 import sys
 
-#
-# Complete the 'reverseArray' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY a as parameter.
-#
+
+# function written starts
 
 def reverseArray(a):
     start = 0 
@@ -21,6 +17,8 @@ def reverseArray(a):
         start+=1
         end-=1
     return a    
+    
+# function ends    
 
     
 if __name__ == '__main__':

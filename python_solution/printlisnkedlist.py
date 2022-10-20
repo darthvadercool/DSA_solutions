@@ -27,20 +27,15 @@ class SinglyLinkedList:
 
         self.tail = node
 
-# Complete the printLinkedList function below.
 
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
-#
+# funtion written starts
+
 def printLinkedList(head):
     while (head):
         print (head.data)
         head = head.next
+        
+# function ends        
 
 if __name__ == '__main__':
     llist_count = int(input())

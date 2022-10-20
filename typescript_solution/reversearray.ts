@@ -23,12 +23,7 @@ function readLine(): string {
     return inputLines[currentLine++];
 }
 
-/*
- * Complete the 'reverseArray' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts INTEGER_ARRAY a as parameter.
- */
+/* funtion written starts */
 
 function reverseArray(a: number[]): number[] {
     const reverse: number[] = []
@@ -37,6 +32,8 @@ function reverseArray(a: number[]): number[] {
     }
     return reverse
 }
+
+/* funtion ends*/
 
 function main() {
     const ws: WriteStream = createWriteStream(process.env['OUTPUT_PATH']);

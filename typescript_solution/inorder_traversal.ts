@@ -47,6 +47,10 @@ export class BinarySearchTree {
 
 var arr :String = '';
 
+
+
+/* funtion written starts */
+
 function inOrder(node:TreeNode):void {
     if (node != null) {
         inOrder(node.left);
@@ -55,6 +59,8 @@ function inOrder(node:TreeNode):void {
 
     }
 }  
+
+/* funtion ends*/
 
 
 

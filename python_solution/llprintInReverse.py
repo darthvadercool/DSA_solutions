@@ -36,25 +36,14 @@ def print_singly_linked_list(node, sep):
         if node:
             print(sep, end='')
 
-#
-# Complete the 'reversePrint' function below.
-#
-# The function accepts INTEGER_SINGLY_LINKED_LIST llist as parameter.
-#
-
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
-#
+# function written starts
 
 def reversePrint(llist):
     if(llist != None):
         reversePrint(llist.next)
         print(llist.data)
+        
+# function ends        
 
 if __name__ == '__main__':
     tests = int(input())

@@ -33,16 +33,9 @@ def print_singly_linked_list(node, sep, fptr):
         if node:
             fptr.write(sep)
 
-# Complete the compare_lists function below.
+# function written starts
 
-#
-# For your reference:
-#
-# SinglyLinkedListNode:
-#     int data
-#     SinglyLinkedListNode next
-#
-#
+
 def compare_lists(llist1, llist2):
     if llist1 is None and llist2 is None:
         return 1
@@ -55,6 +48,8 @@ def compare_lists(llist1, llist2):
         return 1
     else:
         return 0 
+        
+# function ends        
         
 
 if __name__ == '__main__':
