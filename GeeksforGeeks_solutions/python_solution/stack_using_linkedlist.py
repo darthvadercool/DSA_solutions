@@ -1,6 +1,8 @@
+##################### code written #############################
+
 class StackNode:
 
-    # Constructor to initialize a node
+
     def __init__(self, data):
         self.data = data
         self.next = None
@@ -30,7 +32,7 @@ class MyStack:
             self.next = self.next.next
             return item.data
         
-
+#################################################################
      
 
 

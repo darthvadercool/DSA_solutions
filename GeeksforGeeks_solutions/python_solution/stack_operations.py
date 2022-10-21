@@ -1,9 +1,12 @@
 
 #User function Template for python3
 
+
+
 class Solution:
-    
-    #Function to remove consecutive duplicates from given string using Stack.
+
+################ code written ######################
+
     def removeConsecutiveDuplicates(self,s):
         arr = []
         result = ''
@@ -14,7 +17,7 @@ class Solution:
                 arr.append(s[i])
         return result.join(arr)        
                 
-
+####################################################
 
 #{ 
  # Driver Code Starts
